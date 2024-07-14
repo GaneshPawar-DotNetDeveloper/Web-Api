@@ -1,0 +1,25 @@
+﻿
+@{
+    ViewBag.Title = "IndexAjax";
+}
+
+<h2>IndexAjax</h2>
+
+<table class="table table-Borderd" id="student">
+    <thead>
+        <tr>
+            <td>Rollnumber</td>
+            <td>Name</td>
+            <td>Age</td>
+        </tr>
+    </thead>
+    <tbody></tbody>
+
+</table>
+<script>
+    $(function () {
+        URL: 'https://localhost:44368/api/Students',
+            method:    'GET',
+            success:function(response)
+    });
+</script>
