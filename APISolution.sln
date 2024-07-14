@@ -11,7 +11,9 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StudentApiClient", "Student
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DatabaseApi", "DatabaseApi\DatabaseApi.csproj", "{359A851D-FBB9-41D3-B70A-5528B5C83B95}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ApiConsumer", "ApiConsumer\ApiConsumer.csproj", "{EF9F0216-9F43-448D-95FF-F798799C1DDD}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ApiConsumer", "ApiConsumer\ApiConsumer.csproj", "{EF9F0216-9F43-448D-95FF-F798799C1DDD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ApiComsumeJS", "ApiComsumeJS\ApiComsumeJS.csproj", "{423E7D98-FA28-42F0-937E-2A76A9096A01}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -39,6 +41,10 @@ Global
 		{EF9F0216-9F43-448D-95FF-F798799C1DDD}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{EF9F0216-9F43-448D-95FF-F798799C1DDD}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{EF9F0216-9F43-448D-95FF-F798799C1DDD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{423E7D98-FA28-42F0-937E-2A76A9096A01}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{423E7D98-FA28-42F0-937E-2A76A9096A01}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{423E7D98-FA28-42F0-937E-2A76A9096A01}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{423E7D98-FA28-42F0-937E-2A76A9096A01}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
